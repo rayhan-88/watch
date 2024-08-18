@@ -46,3 +46,23 @@
 .btn-up:hover{
     background-color: rgb(7, 172, 21);
 }
+.img{
+    width: 1118px !important;
+    background-attachment: local !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+
+}
+.text-light{
+    color: #c76c00 !important;
+}
+.button{
+    background-color: transparent;
+    color: #85633b;
+    border: 2px solid;
+    padding: 4px;
+    /*border-radius: 5px;*/
+}
+
