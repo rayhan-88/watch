@@ -17,6 +17,7 @@
 }
 .login{
     display: flex;
+
 }
 .btn-login{
 
@@ -31,6 +32,7 @@
 .btn-login:hover{
     background-color: rgb(8,102,255);
     color: white;
+    border: 2px solid #85633b;
 }
 .btn-up{
 
@@ -45,6 +47,7 @@
 }
 .btn-up:hover{
     background-color: rgb(7, 172, 21);
+    border: 2px solid #85633b;
 }
 .img{
     width: 1118px !important;
@@ -53,7 +56,7 @@
     background-size: cover;
     background-position: center;
     background-color: transparent;
-
+    z-index: 1;
 }
 .text-light{
     color: #c76c00 !important;
@@ -65,4 +68,10 @@
     padding: 4px;
     /*border-radius: 5px;*/
 }
-
+.ms-4{
+    color: #85633b;
+}
+.main-text{
+    position: absolute;
+    z-index: 2;
+}
